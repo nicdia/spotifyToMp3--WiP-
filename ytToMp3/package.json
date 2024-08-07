@@ -1,0 +1,28 @@
+{
+  "name": "yttomp3",
+  "version": "1.0.0",
+  "description": "gets spotify data and converts it to mp3",
+  "main": "index.js",
+  "scripts": {
+    "dia": "npx tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicdia/spotifyToMp3.git"
+  },
+  "author": "nicdia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicdia/spotifyToMp3/issues"
+  },
+  "homepage": "https://github.com/nicdia/spotifyToMp3#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  }
+}
