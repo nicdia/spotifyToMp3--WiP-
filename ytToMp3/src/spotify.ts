@@ -75,7 +75,7 @@ export const getToken = async (
   } catch (err) {
     console.error("Error during authorization code grant", err);
     res.send("Error during authorization code grant");
-    return null; // Rückgabe bei Fehler
+    return null; 
   }
 };
 
